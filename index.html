@@ -13,8 +13,8 @@
       <p class="label">Personal AI Projects</p>
       <h1>AI Workflow Orchestration Projects</h1>
       <p class="subtitle">
-        A single page for my AI workflow prototypes deployed on Vercel. These projects explore agent workflows,
-        guided intake, operational routing, support automation, and lightweight AI product interfaces.
+        A single page for my AI workflow prototypes deployed on Vercel. These projects explore support automation,
+        MCP-style agent workflows, vendor operations, guided intake, operational routing, and AI-assisted decision flows.
       </p>
     </div>
   </header>
@@ -23,12 +23,26 @@
     <section class="intro">
       <h2>Background</h2>
       <p>
-        These projects are built around a common theme: using AI to turn messy business inputs into structured next steps.
-        Each prototype focuses on a different workflow, from customer support and vendor operations to guided intake and product-style interfaces.
+        These projects focus on using AI as a workflow layer between messy business inputs and structured operational actions.
+        Each prototype takes an input, applies AI or deterministic workflow logic, and turns it into a clearer next step for a user or team.
       </p>
     </section>
 
     <section class="projects">
+      <article class="card featured">
+        <p class="type">Latest Project</p>
+        <h2>Support Agent MCP</h2>
+        <p>
+          A support workflow prototype built around an MCP-style agent flow. The project demonstrates how a support agent can receive a customer issue,
+          reason through the request, call the right backend logic, and return a grounded response.
+        </p>
+        <p>
+          The latest deployment is connected to the GitHub repo and running as the current Vercel production deployment.
+          It includes environment-backed API access and a live production domain.
+        </p>
+        <a href="https://support-agent-mcp-neon.vercel.app/" target="_blank" rel="noopener">Open live project</a>
+      </article>
+
       <article class="card">
         <p class="type">Support Automation</p>
         <h2>Woot Support Agent</h2>
@@ -47,7 +61,7 @@
         <h2>Vendor Ops Agent</h2>
         <p>
           A vendor operations workflow prototype focused on routing, triage, and operational handoffs.
-          It is designed around the kind of repetitive vendor-facing issues that usually require manual review.
+          It is designed around repetitive vendor-facing issues that usually require manual review.
         </p>
         <p>
           The project shows how AI can sit between incoming requests and the next operational step, helping structure the work before a human reviews it.
@@ -66,18 +80,6 @@
           The project demonstrates how a queue of intake items can be processed, classified, and routed in a clear interface.
         </p>
         <a href="https://guided-intake0.vercel.app/" target="_blank" rel="noopener">Open live project</a>
-      </article>
-
-      <article class="card">
-        <p class="type">AI Product Interface</p>
-        <h2>Portfolio Product</h2>
-        <p>
-          A product-style prototype deployed on Vercel. This project focuses on presenting AI-generated or AI-assisted outputs through a simple user interface.
-        </p>
-        <p>
-          The goal is to test how lightweight front-end experiences can make AI workflows easier to understand, review, and share.
-        </p>
-        <a href="https://portflio-product.vercel.app/" target="_blank" rel="noopener">Open live project</a>
       </article>
     </section>
   </main>
