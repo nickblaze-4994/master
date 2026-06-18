@@ -1,25 +1,18 @@
-# AI Workflow Orchestration Portfolio
+# Real Vercel Projects Portfolio
 
-A simple one-page portfolio for sharing multiple Vercel project links in one public URL.
+This is the updated static portfolio page using the real live Vercel project links:
 
-## How to use
+- Woot Support Agent
+- Vendor Ops Agent
+- Guided Intake
+- Portfolio Product
 
-1. Replace each placeholder project URL in `index.html`.
-2. Replace each GitHub URL with your actual repo URL.
-3. Replace `YOUR-GITHUB-USERNAME`.
-4. Deploy this folder to Vercel.
+## Files
 
-## Deploy on Vercel
+- index.html
+- style.css
 
-Option 1:
-- Create a new GitHub repo
-- Upload these files
-- Import the repo into Vercel
-- Deploy
+## Deploy
 
-Option 2:
-- Drag and drop this folder into Vercel if your account supports it
-
-Your final public portfolio link will look like:
-
-`https://ai-workflow-portfolio.vercel.app`
+Upload these files to the GitHub repo connected to your Vercel portfolio project, then push to the main branch.
+Vercel will redeploy automatically.
